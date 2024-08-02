@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Vaguelette</title>
+  <link rel="icon" type="image/x-icon" href="photo/cookieslogo.png">
+  <link rel="stylesheet" href="styledekstop.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+
+<body>
+  <div class="button-container">
+    <button id="scrollToTopButton" class="button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024" stroke-width="0"
+        fill="currentColor" stroke="currentColor" class="icon">
+        <path
+          d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z">
+        </path>
+      </svg>
+    </button>
+    <button id="catalog" class="button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" aria-hidden="true" viewBox="0 0 24 24"
+        stroke-width="2" fill="none" stroke="currentColor" class="icon">
+        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round" stroke-linecap="round"></path>
+      </svg>
+    </button>
+    <button id="orderpage" class="button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" stroke-linejoin="round" stroke-linecap="round"
+        viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" class="icon">
+        <circle r="1" cy="21" cx="9"></circle>
+        <circle r="1" cy="21" cx="20"></circle>
+        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+      </svg>
+    </button>
+    <button id="contactus" class="button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="0"
+        fill="currentColor" stroke="currentColor" class="icon">
+        <path
+          d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z">
+        </path>
+      </svg>
+    </button>
+  </div>
+  <div class="photo-container">
+    <button id="prevBtn" class="nav-btn">&lt;</button>
+    <div class="photos">
+      <img src="photo/cookies2.jpg" class="photo" alt="Photo 1">
+      <img src="photo/cookies1.jpg" class="photo" alt="Photo 2">
+      <img src="photo/cookies3.jpg" class="photo" alt="Photo 3">
+      <img src="photo/cookie7.jpg" class="photo" alt="Photo 4">
+      <img src="photo/cookies6.jpg" class="photo" alt="photo 5">
+      <img src="photo/brownie1.jpeg" class="photo" alt="photo 6">
+      <img src="photo/brownie5.jpg" class="photo" alt="photo 7">
+    </div>
+    <button id="nextBtn" class="nav-btn">&gt;</button>
+  </div>
+  <div class="kontenutama">
+    <div class="judul show-animate" data-aos="fade-right" data-aos-duration="1000">
+      <h1 class="animated">La Vaguelette</h1>
+      <p class="typed-text">Professional home made Cookie maker</p>
+    </div>
+    <img src="photo/cookiesutama-removebg-preview.png" class="animated show-animate" data-aos="fade-left"
+      data-aos-duration="1000">
+  </div>
+  <div class="social-icons">
+    <a href="https://www.instagram.com/la__vaguelette?utm_source"
+      target="_blank"><img src="photo/instagram_icon-removebg-preview.png" class="fotoinstagram" alt="Instagram"></a>
+    <a href="https://twitter.com/" target="_blank"><img src="photo/Screenshot_2024-06-26_150430-removebg-preview.png"
+        class="fotox" alt="Twitter"></a>
+    <a href="https://www.facebook.com/" target="_blank"><img src="photo/facebook-removebg-preview.png"
+        class="fotofacebook" alt="Facebook"></a>
+  </div>
+  <div class="deskripsitoko">
+    <div class="judul2 show-animate" data-aos="fade-right" data-aos-duration="1000">
+      <h1 class="animate">
+        <span class="title1">La Vaguelette</span> - <span class="subtitle1">A Symphony of Sweetness</span>
+      </h1>
+      <div class="content">
+        <div class="text">
+          <p class="typed-text2"></p>
+        </div>
+        <div class="imagesdesc">
+          <img src="photo/closeupcookie.jpg" alt="Close-up of delicious cookies" class="img-decor">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="sec-1 show-animate" data-aos="fade-down" data-aos-duration="1000">
+    <h1 class="animate">Our Product</h1>
+    <p class="animate">Our Cookie products are made from premium ingredients and high in protein, and are definitely
+      delicious!</p>
+  </section>
+  <section class="sec-2 show-animate">
+    <h1 class="animate" data-aos="fade-left" data-aos-duration="1000">The Supreme Original Cookie</h1>
+    <div class="containerproduk1">
+      <img src="photo/cookiesproduk1.jpg" class="foto1" data-aos="fade-left" data-aos-duration="1000">
+      <img src="photo/cookiesproduk3.jpg" class="foto2" data-aos="fade-left" data-aos-duration="1200">
+      <img src="photo/cookiesproduk4.jpg" class="foto3" data-aos="fade-left" data-aos-duration="1400">
+      <img src="photo/cookiesproduk5.jpg" class="foto1" data-aos="fade-left" data-aos-duration="1000">
+      <img src="photo/cookiesproduk6.jpg" class="foto1" data-aos="fade-left" data-aos-duration="1000">
+      <img src="photo/cookiesproduk7.jpeg" class="foto1" data-aos="fade-left" data-aos-duration="1000">
+      <img src="photo/cookiesproduk8.jpg" class="foto1" data-aos="fade-left" data-aos-duration="1200">
+    </div>
+    <p class="description-2" data-aos="fade-up" data-aos-duration="1500">
+        Our Supreme Original Cookie is a perfect blend of tradition and innovation. Made with the finest ingredients, this cookie features rich, creamy chocolate chips nestled in a buttery, golden dough. Each bite is a delightful experience, combining the sweetness of premium chocolate with the comforting taste of a homemade cookie. Our cookies are baked to perfection, with a slightly crispy exterior and a soft, chewy center that melts in your mouth. Whether enjoyed with a cup of coffee, shared with friends, or as a special treat for yourself, the Supreme Original Cookie promises a moment of pure bliss. Crafted with love and passion, it's more than just a cookie—it's a taste of home and happiness in every bite.
+    </p>
+</section>
+  <section class="sec-3 show-animate">
+    <h1 class="animate">The Green Super Matcha Cookie</h1>
+    <div class="containerproduk2">
+      <img src="photo/matchacookie2.jpg" class="foto4" data-aos="fade-right" data-aos-duration="1000">
+      <img src="photo/matchacookie1.jpg" class="foto5" data-aos="fade-right" data-aos-duration="1200">
+      <img src="photo/matchacookie3.jpg" class="foto6" data-aos="fade-right" data-aos-duration="1400">
+      <img src="photo/matchacookie4.jpg" class="foto4" data-aos="fade-right" data-aos-duration="1000">
+      <img src="photo/matchacookie5.jpg" class="foto5" data-aos="fade-right" data-aos-duration="1200">
+      <img src="photo/matchacookie6.jpg" class="foto6" data-aos="fade-right" data-aos-duration="1400">
+    </div>
+    <p class="description-2" data-aos="fade-up" data-aos-duration="1000">
+      The Green Super Matcha Cookie combines the earthy richness of premium matcha with the sweetness of our finest cookie dough. Each bite delivers a burst of vibrant green tea flavor, perfectly balanced with a delightful sweetness that will leave you craving more. Crafted with love and attention to detail, our Matcha Cookies are a testament to our passion for quality and innovation. Experience the unique fusion of traditional Japanese matcha and classic cookie goodness, made just for you.
+  </p>
+  </section>
+  <section class="sec-4 show-animate">
+    <h1 class="animate">The Darkest & Sweetest Brownie </h1>
+    <div class="containerproduk3">
+      <img src="photo/brownie2.jpg" class="foto7" data-aos="fade-left" data-aos-duration="1000">
+      <img src="photo/brownie3.jpg" class="foto8" data-aos="fade-left" data-aos-duration="1200">
+      <img src="photo/brownie4.jpg" class="foto9" data-aos="fade-left" data-aos-duration="1400">
+      <img src="photo/brownie6.jpg" class="foto7" data-aos="fade-left" data-aos-duration="1000">
+      <img src="photo/brownie7.jpg" class="foto8" data-aos="fade-left" data-aos-duration="1200">
+      <img src="photo/brownie8.jpg" class="foto9" data-aos="fade-left" data-aos-duration="1400">
+    </div>
+    <p class="description-2" data-aos="fade-up" data-aos-duration="1000">
+      Indulge in the rich, decadent taste of our Darkest & Sweetest Brownie. Made with the finest cocoa and dark chocolate, this brownie offers an intense chocolate flavor that melts in your mouth. Each bite is a perfect balance of sweetness and bitterness, creating an unforgettable dessert experience. Baked with love and precision, our brownies are soft, fudgy, and satisfyingly sweet, ensuring a delightful treat for all chocolate lovers. Enjoy the ultimate chocolate experience with every piece of our Darkest & Sweetest Brownie.
+  </p>
+  </section>
+  <section id="order">
+    <h1>Want to taste the deliciousness and enjoyment of our Cookies?</h1>
+    <div class="order-container">
+      <h2>Order Here!</h2>
+      <p>Contact us via WhatsApp or Instagram to place your order!</p>
+      <a href="https://wa.me/6281929014069?text=Hello%20La%20Vaguelette%2C%20I%20would%20like%20to%20order%20some%20delicious%20cookies!"
+        class="order-button whatsapp">
+        <img src="photo/whatsapp-removebg-preview.png" alt="WhatsApp" class="icon-whatsapp"> Order via WhatsApp
+      </a>
+      <a href="https://www.instagram.com/la__vaguelette?utm_source" class="order-button instagram">
+        <img src="photo/Screenshot_2024-06-28_144749-removebg-preview.png" alt="Instagram" class="icon"> Order via
+        Instagram
+      </a>
+    </div>
+  </section>
+  <main>
+    <section id="contact">
+        <h2>Contact Us!</h2>
+        <p>Feel free to reach out to us with any questions or comments!</p>
+        <form id="contact-form" onsubmit="submitForm(event)">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="animated-button">
+              <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+              </svg>
+              <span class="text">Send Message</span>
+              <span class="circle"></span>
+              <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+              </svg>
+          </button>
+        </form>
+    </section>
+</main>
+<footer class="footer">
+  <div class="footer-container">
+      <div class="footer-col">
+          <h3>About La Vaguelette</h3>
+          <p>La Vaguelette brings you the finest artisanal cookies, crafted with love and the finest ingredients. Each bite is a wave of delight!</p>
+      </div>
+      <div class="footer-col">
+          <h3>Contact Information</h3>
+          <p>Email: laavaguelette@gmail.com</p>
+          <p>Phone: +6281929014069</p>
+      </div>
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <ul class="contact-links">
+            <li><a href="https://wa.me/6281929014069" target="_blank">WhatsApp Us</a></li>
+            <li><a href="mailto:laavaguelette@gmail.com">Email Us</a></li>
+            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=laavaguelette@gmail.com" target="_blank">Email via Gmail</a></li>
+        </ul>
+    </div>
+    
+      <div class="footer-col">
+          <h3>Opening Hours</h3>
+          <p>Monday - Friday: 9 AM - 6 PM</p>
+          <p>Saturday: 10 AM - 4 PM</p>
+          <p>Sunday: Closed</p>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; 2024 La Vaguelette. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="dekstop.js"></script>
+  <script src="submitgmail.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    AOS.init();
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Menangkap tautan Twitter
+    var twitterLink = document.querySelector('.fotox');
+    if (twitterLink) {
+        twitterLink.addEventListener('click', function (event) {
+            event.preventDefault();
+            Swal.fire({
+                icon: 'info',
+                title: 'Coming Soon',
+                text: 'Our X page is coming soon. Stay tuned!',
+                confirmButtonColor: 'burlywood',
+                confirmButtonText: 'OK'
+            });
+        });
+    }
+
+    // Menangkap tautan Facebook
+    var facebookLink = document.querySelector('.fotofacebook');
+    if (facebookLink) {
+        facebookLink.addEventListener('click', function (event) {
+            event.preventDefault();
+            Swal.fire({
+                icon: 'info',
+                title: 'Coming Soon',
+                text: 'Our Facebook page is coming soon. Stay tuned!',
+                confirmButtonColor: 'burlywood',
+                confirmButtonText: 'OK'
+            });
+        });
+    }
+});
+
+
+ // Initialize EmailJS with your user ID
+emailjs.init('4qTH6OtpEwlnOlbw4');
+
+// Function to submit the form
+function submitForm(event) {
+    event.preventDefault(); // Prevent the form from submitting
+
+    // Show loading spinner
+    Swal.fire({
+        title: 'Sending...',
+        allowOutsideClick: false,
+        didOpen: () => {
+            Swal.showLoading();
+        }
+    });
+
+    // Get values from the form
+    var formData = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        message: document.getElementById('message').value
+    };
+
+    // Send email using EmailJS
+    emailjs.send('service_qq6pzum', 'template_t7hs1ui', formData)
+        .then(function(response) {
+            console.log('Email sent successfully:', response);
+            Swal.fire({
+                icon: 'success',
+                title: 'Message sent!',
+                text: 'We will get back to you soon.',
+                showConfirmButton: false,
+                timer: 2000
+            });
+            document.getElementById('contact-form').reset(); // Reset the form after sending
+        }, function(error) {
+            console.error('Error sending email:', error);
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops!',
+                text: 'Something went wrong. Please try again later.',
+                showConfirmButton: false,
+                timer: 2000
+            });
+        });
+}
+
+  </script>
+</body>
+
+</html>
